@@ -25,11 +25,11 @@ function InfoCard({img, location, title, description, lat,
           <p className="pt-2 flex-grow text-gray-500 text-sm">{description}</p>
             <div className="flex justify-between">
          <p className="flex items-center space-x-2 ">
-           <AiFillStar className="h-5 w-5 text-red-500 "/>
+           <AiFillStar className="h-5 w-5 text-red-500 mr-1"/>
           {star}</p>
          
           <div>
-            <p className="text-xl lg:text-2xl font-semibold pb-2">{total}</p>
+            <p className="text-xl lg:text-2xl font-semibold pb-2 ">{total}</p>
             <p className="font-extralight text-right">{price}</p>
 
             </div>
