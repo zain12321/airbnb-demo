@@ -13,6 +13,7 @@ function InfoCard({img, location, title, description, lat,
         layout='fill'
         objectFit="cover"
         className="rounded-lg hover:opacity-80"
+        alt="InfoCard"
         />
       </div>
       <div className="flex flex-col sm:pl-5 flex-grow  ">

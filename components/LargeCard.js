@@ -8,7 +8,7 @@ function LargeCard({img, description, buttonText, title }) {
         src={img}
         objectFit='cover'
         layout='fill'
-        alt=''
+        alt='LargeCard'
         className="rounded-lg"
         />
       </div>

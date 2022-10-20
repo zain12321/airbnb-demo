@@ -50,12 +50,11 @@ function Header({placeholder}) {
          my-auto'>
             <Image 
             src='https://www.logo.wine/a/logo/Airbnb/Airbnb-Logo.wine.svg'
-            alt=''
+            alt='Logo'
             className=''
             layout='fill'
             objectFit='contain'
             objectPosition='left'
-     
           />
         </div>
         <div className='rounded-full md:border-2 py-2 flex items-center

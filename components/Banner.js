@@ -7,9 +7,9 @@ function Banner() {
      xl:h-[550px] 2xl:h-[700px]'>
         <Image 
         src='https://a0.muscache.com/im/pictures/57b9f708-bb12-498c-bc33-769f8fc43e63.jpg'
-        alt=''
+        alt='Banner'
         layout='fill'
-        className='object-cover' />
+        className='object-cover'/>
         <div className='absolute top-1/2 text-center w-full'>
             <p className='text-sm sm:text-lg font-medium'>Not Sure where to go? Perfect.</p>
             <button className='text-purple-500 bg-white py-4
