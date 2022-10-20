@@ -3,12 +3,14 @@ import Image from "next/image"
 function LargeCard({img, description, buttonText, title }) {
   return (
     <div className="py-16 relative">
-      <div className="relative h-96 min-w-[250px] rounded-lg ">
+      <div className="relative h-96 min-w-[250px]  ">
         <Image
         src={img}
         objectFit='cover'
         layout='fill'
-        alt/>
+        alt=''
+        className="rounded-lg"
+        />
       </div>
       <div className="absolute top-32 left-12">
         <h3 className="text-4xl mb-3 w-64">{title}</h3>

@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 
-
-@media (max-width: 388px){
-    .header-logo{
-        height: 40px;
-        /* width: 40px; */
+@layer components {
+    .button {
+        @apply cursor-pointer ease-out border text-center
+       shadow-lg hover:shadow-xl py-2 font-semibold 
+        rounded-full px-4 active:scale-95 transition transform;
     }
 }

@@ -73,3 +73,22 @@ export async function getStaticProps() {
   }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
