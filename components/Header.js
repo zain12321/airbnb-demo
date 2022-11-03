@@ -76,9 +76,9 @@ function Header({placeholder}) {
             <FaUserCircle className='h-6 w-6 cursor-pointer
             '/>
           </div>
-        </div >
+        </div>
         {searchInput && 
-        <div className='flex flex-col mx-auto col-span-3'>
+        <div className='flex flex-col sm:mx-auto col-span-3 w-[250px] sm:w-[450px]'>
           <DateRangePicker 
           ranges={[selectionRange]}
           minDate={new Date()}
@@ -87,7 +87,7 @@ function Header({placeholder}) {
           className=''
           />
              <div className='flex items-center border-b mb-4 '>
-            <h2 className='font-semibold text-2xl flex-grow '>Number of Guests</h2>
+            <h2 className='font-semibold text-md pl-1 sm:text-2xl flex-grow'>Number of Guests</h2>
             <HiUsers className='h-5 w-5'/>
             <input type='number'
             onChange={e => setNuOfGuests(e.target.value)}
